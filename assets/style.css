@@ -254,12 +254,28 @@ tbody tr {
 
 }
 
+.w-md-25 {
+    width: 25% !important;
+}
+
+.h-md-25 {
+    height: 25% !important;
+}
+
 @media (max-width: 768px) {
     .frm-btn {
         background-color: #C5D6EE !important;
         color: #212955 !important;
         width: 49%;
 
+    }
+
+    .w-md-25 {
+        width: 0% !important;
+    }
+
+    .h-md-25 {
+        height: 0% !important;
     }
 
     .t-box {
