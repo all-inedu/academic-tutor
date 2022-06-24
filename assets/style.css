@@ -250,12 +250,16 @@ tbody tr {
 .frm-btn {
     background-color: #C5D6EE !important;
     color: #212955 !important;
-    width: 43%;
+    width: 49%;
 
 }
 
 .w-md-25 {
     width: 25% !important;
+}
+
+.w-20 {
+    width: 24% !important;
 }
 
 .h-md-25 {
@@ -268,6 +272,12 @@ tbody tr {
         color: #212955 !important;
         width: 49%;
 
+    }
+
+    .w-20 {
+        width: 23% !important;
+        font-size: 14px !important;
+        text-align: center !important;
     }
 
     .w-md-25 {

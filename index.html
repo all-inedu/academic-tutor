@@ -248,18 +248,18 @@
                                                 placeholder="Name" autocomplete="name">
                                         </div>
                                     </div>
-                                    <div class="row row-cols-md-2 row-cols-1">
-                                        <div class="col">
-                                            <div class="ml-form-fieldRow">
-                                                <div
-                                                    class="ml-field-group ml-field-email ml-validate-email ml-validate-required pb-3">
-                                                    <label class="form-label fw-semibold fs-5">Email</label>
-                                                    <input aria-label="email" aria-required="true" type="email"
-                                                        class="form-control" data-inputmask="" name="fields[email]"
-                                                        placeholder="Email" autocomplete="email">
-                                                </div>
+                                    <div class="col">
+                                        <div class="ml-form-fieldRow">
+                                            <div
+                                                class="ml-field-group ml-field-email ml-validate-email ml-validate-required pb-3">
+                                                <label class="form-label fw-semibold fs-5">Email</label>
+                                                <input aria-label="email" aria-required="true" type="email"
+                                                    class="form-control" data-inputmask="" name="fields[email]"
+                                                    placeholder="Email" autocomplete="email">
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="row row-cols-md-2 row-cols-1">
                                         <div class="col">
                                             <div class="ml-form-fieldRow">
                                                 <div class="ml-field-group ml-field-phone ml-validate-required pb-3">
@@ -270,27 +270,39 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col">
+                                            <div class="ml-form-fieldRow">
+                                                <div
+                                                    class="ml-field-group ml-field-niat_studi_ke_luar_negeri ml-validate-required">
+                                                    <label class="form-label fw-semibold fs-5">School</label>
+                                                    <input aria-label="niat_studi_ke_luar_negeri" aria-required="true"
+                                                        type="text" class="form-control" data-inputmask=""
+                                                        name="fields[niat_studi_ke_luar_negeri]" placeholder="School"
+                                                        autocomplete="">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
 
                                     <div class="ml-form-fieldRow">
-                                        <div class="row row-cols-md-2 row-cols-1">
-                                            <div class="col">
-                                                <div
-                                                    class="ml-field-group ml-field-grade_waktu_ikut_program ml-validate-required">
-                                                    <label class="form-label fw-semibold fs-5">Grade</label>
-                                                    <select class="select" name="fields[grade_waktu_ikut_program]"
-                                                        aria-label="grade_waktu_ikut_program" aria-required="true">
-                                                        <option value="">-</option>
-                                                        <option> 9 </option>
-                                                        <option> 10 </option>
-                                                        <option> 11 </option>
-                                                        <option> 12 </option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="ml-form-fieldRow">
+                                        <!-- <div class="row row-cols-md-2 row-cols-1"> -->
+                                        <!-- <div class="col"> -->
+                                        <div
+                                            class="ml-field-group ml-field-grade_waktu_ikut_program ml-validate-required">
+                                            <label class="form-label fw-semibold fs-5">Grade</label>
+                                            <select class="select" name="fields[grade_waktu_ikut_program]"
+                                                aria-label="grade_waktu_ikut_program" aria-required="true">
+                                                <option value="">-</option>
+                                                <option> 9 </option>
+                                                <option> 10 </option>
+                                                <option> 11 </option>
+                                                <option> 12 </option>
+                                            </select>
+                                        </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="col"> -->
+                                        <!-- <div class="ml-form-fieldRow">
                                                     <div class="ml-field-group ml-field-sekolah ml-validate-required">
                                                         <label class="form-label fw-semibold fs-5">Subject</label>
                                                         <select class="select" name="fields[sekolah]"
@@ -302,15 +314,81 @@
                                                             <option> English </option>
                                                         </select>
                                                     </div>
+                                                </div> -->
+                                        <!-- </div> -->
+                                        <!-- </div> -->
+                                    </div>
+
+                                    <div class="ml-form-fieldRow mb-3">
+                                        <div class="ml-field-group ml-field-sekolah ml-validate-required">
+                                            <label class="form-label fw-semibold fs-5">Subject (Max 2 Subjects)</label>
+                                            <div class="custom-checkbox-radio-list">
+                                                <div class="mb-3 fw-semibold">
+                                                    <input name="fields[sekolah][]" aria-label="sekolah"
+                                                        aria-required="true" class="btn-check" type="checkbox"
+                                                        value="Math" id="checkbox-5710662-53-0">
+                                                    <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                        for="checkbox-5710662-53-0">
+                                                        Math </label>
+                                                    <input name="fields[sekolah][]" aria-label="sekolah"
+                                                        aria-required="true" class="btn-check" type="checkbox"
+                                                        value="Physics" id="checkbox-5710662-53-1">
+                                                    <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                        for="checkbox-5710662-53-1">
+                                                        Physics </label>
+                                                    <input name="fields[sekolah][]" aria-label="sekolah"
+                                                        aria-required="true" class="btn-check" type="checkbox"
+                                                        value="Chemistry" id="checkbox-5710662-53-2">
+                                                    <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                        for="checkbox-5710662-53-2">
+                                                        Chemistry </label>
+                                                    <input name="fields[sekolah][]" aria-label="sekolah"
+                                                        aria-required="true" class="btn-check" type="checkbox"
+                                                        value="English" id="checkbox-5710662-53-3">
+                                                    <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                        for="checkbox-5710662-53-3">
+                                                        English </label>
+                                                    <!-- <div class="custom-control custom-checkbox">
+                                                        <input name="fields[sekolah][]" aria-label="sekolah"
+                                                            aria-required="true" class="btn-check" type="checkbox"
+                                                            value="Math" id="checkbox-5710662-53-0">
+                                                        <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                            for="checkbox-5710662-53-0">
+                                                            Math </label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input name="fields[sekolah][]" aria-label="sekolah"
+                                                            aria-required="true" class="btn-check" type="checkbox"
+                                                            value="Physics" id="checkbox-5710662-53-1">
+                                                        <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                            for="checkbox-5710662-53-1">
+                                                            Physics </label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input name="fields[sekolah][]" aria-label="sekolah"
+                                                            aria-required="true" class="btn-check" type="checkbox"
+                                                            value="Chemistry" id="checkbox-5710662-53-2">
+                                                        <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                            for="checkbox-5710662-53-2">
+                                                            Chemistry </label>
+                                                    </div>
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input name="fields[sekolah][]" aria-label="sekolah"
+                                                            aria-required="true" class="btn-check" type="checkbox"
+                                                            value="English" id="checkbox-5710662-53-3">
+                                                        <label class="btn btn-primary fw-bold fs-5 frm-btn w-20"
+                                                            for="checkbox-5710662-53-3">
+                                                            English </label>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="ml-form-fieldRow">
+                                    <!-- <div class="ml-form-fieldRow">
                                         <div class="ml-field-group ml-field-audience ml-validate-required ">
-                                            <label class="form-label fw-semibold fs-5">I am a</label>
-                                            <!-- <div class="custom-checkbox-radio-list">
+                                            <label class="form-label fw-semibold fs-5">I am a</label> -->
+                                    <!-- <div class="custom-checkbox-radio-list">
                                                         <div class="custom-control custom-checkbox">
                                                             <input name="fields[audience][]" aria-label="audience"
                                                                 aria-required="true" class="custom-control-input"
@@ -327,7 +405,7 @@
                                                                 Parent </label>
                                                         </div>
                                                     </div> -->
-                                            <div class="mb-3 fw-semibold">
+                                    <!-- <div class="mb-3 fw-semibold">
                                                 <input name="fields[audience][]" aria-label="audience"
                                                     aria-required="true" class="btn-check" type="radio" value="Student"
                                                     id="checkbox-5710662-53-0" autocomplete="off">
@@ -338,9 +416,9 @@
                                                     id="checkbox-5710662-53-1" autocomplete="off">
                                                 <label class="btn btn-primary fw-bold fs-5 frm-btn"
                                                     for="checkbox-5710662-53-1">Parent</label>
-                                            </div>
-                                        </div>
-                                    </div>
+                                            </div> -->
+                                    <!-- </div>
+                                    </div> -->
                                     <div class="ml-form-fieldRow ml-last-item">
                                         <div class="ml-field-group ml-field-ikut_program ml-validate-required pb-2">
                                             <label class="form-label fw-semibold fs-5">Curriculum</label>
@@ -373,6 +451,23 @@
                                                 <label class="btn btn-primary fw-bold fs-5 frm-btn"
                                                     for="checkbox-5710662-63-1">IB</label>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-form-fieldRow ml-last-item mb-3">
+                                        <div class="ml-field-group ml-field-promotion_source ml-validate-required">
+                                            <label class="form-label fw-semibold fs-5">Where do you know this event
+                                                from</label>
+                                            <select class="select" name="fields[promotion_source]"
+                                                aria-label="promotion_source" aria-required="true">
+                                                <option value="">-</option>
+                                                <option> WA Blast </option>
+                                                <option> Email </option>
+                                                <option> Website </option>
+                                                <option> Instagram </option>
+                                                <option> Mentor </option>
+                                                <option> Friends </option>
+                                                <option> Parents </option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
