@@ -266,12 +266,20 @@ tbody tr {
     height: 25% !important;
 }
 
+.fs-md-5 {
+    font-size: 1.25rem !important;
+}
+
 @media (max-width: 768px) {
     .frm-btn {
         background-color: #C5D6EE !important;
         color: #212955 !important;
         width: 49%;
 
+    }
+
+    .fs-md-5 {
+        font-size: 20px !important;
     }
 
     .w-20 {
@@ -281,11 +289,11 @@ tbody tr {
     }
 
     .w-md-25 {
-        width: 0% !important;
+        width: 90% !important;
     }
 
     .h-md-25 {
-        height: 0% !important;
+        height: 100% !important;
     }
 
     .t-box {
