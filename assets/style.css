@@ -39,32 +39,6 @@
     font-size: calc(1.3rem + 0.6vw);
 }
 
-.text1 {
-    left: 25px;
-    top: 70px;
-}
-
-.text2 {
-    left: 25px;
-    top: 70px;
-}
-
-.text3 {
-    left: 0px;
-    top: 120px;
-    font-size: 40px;
-}
-
-.text4 {
-    right: 21px;
-    top: 0px;
-}
-
-.text5 {
-    left: 16px;
-    top: 0px;
-}
-
 .text-break-md {
     word-wrap: break-word !important;
     word-break: break-word !important;
@@ -295,8 +269,38 @@ tbody tr {
     background: #E78724 !important;
 }
 
+.-m-ib {
+    margin-bottom: -2rem !important;
+    padding-right: 4.85rem !important;
+}
+
+.-m-alevel {
+    margin-bottom: -2rem !important;
+    padding-right: 0.10rem !important;
+}
+
+.mt-05 {
+    margin-top: 0.10rem !important;
+    padding-right: 2.12rem !important;
+}
 
 @media (max-width: 768px) {
+    .-m-ib {
+        margin-bottom: -1.2rem !important;
+        margin-left: 4.3rem !important;
+    }
+
+    .-m-alevel {
+        margin-bottom: -1.2rem !important;
+        margin-left: 3.5rem !important;
+    }
+
+    .mt-05 {
+        margin-top: 0.02rem !important;
+        margin-left: 2.6rem !important;
+        font-size: 25px !important;
+    }
+
     .frm-btn {
         background-color: #C5D6EE !important;
         color: #212955 !important;
@@ -367,35 +371,6 @@ tbody tr {
         margin-top: -20px;
     }
 
-    .text1 {
-        left: 19px !important;
-        top: 55px !important;
-        font-size: 22px !important;
-    }
-
-    .text2 {
-        left: 25px !important;
-        top: 55px !important;
-        font-size: 22px !important;
-    }
-
-    .text3 {
-        left: 10px !important;
-        top: 65px !important;
-        font-size: 28px !important;
-    }
-
-    .text4 {
-        left: -10px !important;
-        top: -5px !important;
-        font-size: 28px !important;
-    }
-
-    .text5 {
-        left: 25px !important;
-        top: -5px !important;
-        font-size: 28px !important;
-    }
 
     .navbar {
         background: #fff;
