@@ -140,7 +140,7 @@
 
 .t-box {
     margin: auto;
-    width: 315px;
+    width: 275px;
     height: 41px;
     background-color: #E78724;
 }
@@ -270,12 +270,55 @@ tbody tr {
     font-size: 1.25rem !important;
 }
 
+.logo-math {
+    width: 43%;
+}
+
+.logo-phy-chem {
+    width: 36%;
+}
+
+.logo-eng {
+    width: 43%;
+}
+
+.splide__pagination {
+    bottom: 0 !important;
+    position: relative !important;
+}
+
+.splide__pagination__page {
+    background: #27387A !important;
+}
+
+.splide__pagination__page.is-active {
+    background: #E78724 !important;
+}
+
+
 @media (max-width: 768px) {
     .frm-btn {
         background-color: #C5D6EE !important;
         color: #212955 !important;
         width: 49%;
 
+    }
+
+    .logo-math {
+        width: 63%;
+    }
+
+    .logo-phy-chem {
+        width: 42%;
+    }
+
+    .logo-eng {
+        width: 76%;
+    }
+
+    .logo-all {
+        width: 25%;
+        height: auto;
     }
 
     .fs-md-5 {
@@ -298,7 +341,7 @@ tbody tr {
 
     .t-box {
         margin: auto;
-        width: 275px;
+        width: 245px;
         height: 32px;
         background-color: #E78724;
     }
