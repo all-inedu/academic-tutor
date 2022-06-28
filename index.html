@@ -583,7 +583,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 mb-2 mt-4">
-                    <h4 style="color: #0784B0;">
+                    <h4 style="color: #0784B0;" class="text-md-start text-center">
                         Our mentees are currently at
                     </h4>
                     <div class="row row-cols-md-6 row-cols-2 mt-3 d-flex align-items-center my-md-0">
@@ -633,10 +633,11 @@
             arrows: false,
             perPage: 3,
             width: '100%',
-            padding: 30,
+            padding: { left: "0", right: "30px" },
             gap: 5,
             breakpoints: {
                 640: {
+                    padding: { left: "0", right: "40px" },
                     perPage: 1,
                     gap: '1px',
                 },
