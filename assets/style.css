@@ -248,6 +248,10 @@ tbody tr {
     width: 43%;
 }
 
+.logo-bio {
+    width: 41%;
+}
+
 .logo-phy-chem {
     width: 36%;
 }
@@ -310,6 +314,10 @@ tbody tr {
 
     .logo-math {
         width: 63%;
+    }
+
+    .logo-bio {
+        width: 60%;
     }
 
     .logo-phy-chem {
